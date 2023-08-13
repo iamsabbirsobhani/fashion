@@ -44,7 +44,7 @@ export default function DeskNav() {
 
             <li>
               <div>
-                <button className=" text-[22px] m-5 bg-gray-950 rounded-md text-white p-2">
+                <button className=" text-[22px] m-5 bg-gray-950 rounded-md text-white px-5 py-3">
                   Sign Up
                 </button>
               </div>
