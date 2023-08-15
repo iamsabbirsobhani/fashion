@@ -5,13 +5,17 @@ export default function SectionOne() {
     <section className=" section-one mt-10">
       <div className=" max-w-7xl bg-[#F4F6F5] relative rounded-[2rem] flex justify-between z-20">
         <div className=" p-10">
-          <h1 className=" font-extrabold text-6xl">
-            <span className=" relative before:absolute before:w-[130%] before:-z-10 before:h-full before:bg-white before:-rotate-2 before:-top-2 before:-left-1">
+          <div className=" relative font-extrabold text-6xl uppercase">
+            <span className="relative before:absolute before:w-[130%] before:-z-10 before:h-[80%] before:bg-white before:-rotate-2 before:top-1 before:-left-1">
               Let&apos;s
             </span>
-            <br /> <span> Explore </span> <br /> <span>Unique</span> <br />{' '}
-            Clothes.
-          </h1>
+            <br /> <span className=""> Explore </span> <br />
+            <span className="relative top-1 mt-3 before:absolute before:w-[130%] before:-z-10 before:h-[80%] before:bg-[#EBD96B] before:-rotate-2 before:top-1 before:-left-1">
+              Unique
+            </span>
+            <br />
+            <span className=" relative top-1">Clothes.</span>
+          </div>
           <p className=" text-xl">
             Live for influential and innovative fashion!
           </p>
