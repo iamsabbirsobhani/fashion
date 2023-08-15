@@ -3,10 +3,14 @@ import Image from 'next/image';
 export default function SectionOne() {
   return (
     <section className=" section-one mt-10">
-      <div className=" max-w-7xl bg-[#F4F6F5] rounded-[2rem] flex justify-between">
+      <div className=" max-w-7xl bg-[#F4F6F5] relative rounded-[2rem] flex justify-between z-20">
         <div className=" p-10">
-          <h1 className=" font-extrabold text-7xl">
-            Let&apos;s <br /> Explore <br /> <span>Unique</span> <br /> Clothes.
+          <h1 className=" font-extrabold text-6xl">
+            <span className=" relative before:absolute before:w-[130%] before:-z-10 before:h-full before:bg-white before:-rotate-2 before:-top-2 before:-left-1">
+              Let&apos;s
+            </span>
+            <br /> <span> Explore </span> <br /> <span>Unique</span> <br />{' '}
+            Clothes.
           </h1>
           <p className=" text-xl">
             Live for influential and innovative fashion!
