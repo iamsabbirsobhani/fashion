@@ -6,21 +6,34 @@ export default function SectionOne() {
       <div className=" max-w-7xl bg-[#F4F6F5] relative rounded-[2rem] flex justify-between z-20">
         <div className=" p-10">
           <div className=" relative font-extrabold text-6xl uppercase">
-            <span className="relative before:absolute before:w-[130%] before:-z-10 before:h-[80%] before:bg-white before:-rotate-2 before:top-1 before:-left-1">
+            <span className="relative top-3 before:absolute before:w-[130%] before:-z-10 before:h-[80%] before:bg-white before:-rotate-2 before:top-1 before:-left-1">
               Let&apos;s
             </span>
-            <br /> <span className=""> Explore </span> <br />
-            <span className="relative top-1 mt-3 before:absolute before:w-[130%] before:-z-10 before:h-[80%] before:bg-[#EBD96B] before:-rotate-2 before:top-1 before:-left-1">
+            <br /> <span className=" relative top-3"> Explore </span> <br />
+            <span className="relative top-3 mt-3 before:absolute before:w-[130%] before:-z-10 before:h-[80%] before:bg-[#EBD96B] before:-rotate-2 before:top-1 before:-left-1">
               Unique
             </span>
             <br />
-            <span className=" relative top-1">Clothes.</span>
+            <span className=" relative top-3">Clothes.</span>
           </div>
-          <p className=" text-xl">
+          <p className=" text-xl mt-3">
             Live for influential and innovative fashion!
           </p>
-          <div>
-            <button className=" text-[22px] my-5 bg-gray-950 rounded-md text-white px-5 py-2">
+          <div className=" flex items-center justify-between p-5">
+            <svg
+              width="190"
+              height="32"
+              viewBox="0 0 190 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 30.6152C48 -11.7848 146.667 -1.05149 190 9.61518C176.4 33.6152 57.6667 33.6152 0 30.6152Z"
+                fill="#EBD96B"
+              />
+            </svg>
+
+            <button className=" text-[22px] my-5 bg-gray-950 rounded-md text-white px-5 py-2 shadow-md font-semibold">
               Shop Now
             </button>
           </div>
@@ -29,8 +42,8 @@ export default function SectionOne() {
           <Image
             src="/images/section-one-img.png"
             alt="Fashion"
-            width={700}
-            height={700}
+            width={550}
+            height={550}
           />
         </div>
       </div>
