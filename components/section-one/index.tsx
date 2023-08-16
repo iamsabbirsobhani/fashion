@@ -33,7 +33,7 @@ export default function SectionOne() {
               />
             </svg>
 
-            <button className=" text-[22px] my-5 bg-gray-950 rounded-md text-white px-5 py-2 shadow-md font-semibold">
+            <button className="active:bg-gray-600 transition-all duration-100  text-[22px] my-5 bg-gray-950 rounded-md text-white px-5 py-2 shadow-md font-semibold">
               Shop Now
             </button>
           </div>
@@ -42,8 +42,14 @@ export default function SectionOne() {
           <Image
             src="/images/section-one-img.png"
             alt="Fashion"
-            width={550}
-            height={550}
+            width={600}
+            height={540}
+            style={{
+              width: '100%',
+              height: 'auto',
+            }}
+            placeholder="blur"
+            blurDataURL="/images/section-one-img.png"
           />
         </div>
       </div>
