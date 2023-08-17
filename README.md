@@ -2,6 +2,8 @@
 
 Let's explore unique clothes.
 
+### Made with ❤️ built with Nextjs 13
+
 ## UI Design structure
 
 Frontend UI design.
