@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function DeskNav() {
   return (
     <nav className="">
-      <ul className="flex justify-between">
+      <ul className="flex justify-between p-10">
         <li className="flex justify-center items-center">
           <div className="mr-1">
             <Image
@@ -13,7 +13,7 @@ export default function DeskNav() {
               height={30}
             />
           </div>
-          <h1 className="text-3xl font-extrabold uppercase">Fashion</h1>
+          <h1 className="text-3xl font-extrabold uppercase">Fashio</h1>
         </li>
 
         <li className="">
@@ -28,7 +28,7 @@ export default function DeskNav() {
 
             <li>
               <div>
-                <button className=" text-[22px] m-5 uppercase">Fashion</button>
+                <button className=" text-[22px] m-5 uppercase">Fashio</button>
               </div>
             </li>
 
