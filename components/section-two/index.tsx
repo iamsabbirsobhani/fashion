@@ -6,7 +6,6 @@ export default function SectionTwo() {
       <div>Shopify</div>
       <div>Lacoste</div>
       <div>Levis</div>
-      <div>Levis</div>
     </div>
   );
 }
