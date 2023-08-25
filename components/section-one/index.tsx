@@ -39,7 +39,7 @@ export default function SectionOne() {
           </div>
         </div>
         <div className=" pr-5">
-          {/* <Image
+          <Image
             src="/images/section-one-img.png"
             alt="Fashion"
             width={600}
@@ -50,7 +50,7 @@ export default function SectionOne() {
             }}
             placeholder="blur"
             blurDataURL="/images/section-one-img.png"
-          /> */}
+          />
         </div>
       </div>
     </section>
