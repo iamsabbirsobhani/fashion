@@ -21,7 +21,7 @@ export default function SectionTwo() {
       </div>
       <div>
         <Image
-          src="/images/section-two/shopify.png"
+          src="/images/section-two/Shopify.png"
           alt="section-two"
           width={100}
           height={60}
