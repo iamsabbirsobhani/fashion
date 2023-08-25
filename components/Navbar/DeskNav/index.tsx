@@ -13,14 +13,14 @@ export default function DeskNav() {
               height={30}
             />
           </div>
-          <h1 className="text-3xl font-extrabold uppercase">Fashio</h1>
+          <h1 className="text-3xl font-extrabold uppercase">Fashion</h1>
         </li>
 
         <li className="">
           <ul className=" flex justify-center items-center">
             <li>
               <div>
-                <button className=" text-[22px] m-5 uppercase">
+                <button className=" text-[16px] m-5 uppercase">
                   Catalogue
                 </button>
               </div>
@@ -28,13 +28,13 @@ export default function DeskNav() {
 
             <li>
               <div>
-                <button className=" text-[22px] m-5 uppercase">Fashio</button>
+                <button className=" text-[16px] m-5 uppercase">Fashio</button>
               </div>
             </li>
 
             <li>
               <div>
-                <button className=" text-[22px] m-5 uppercase">
+                <button className=" text-[16px] m-5 uppercase">
                   Favourite
                 </button>
               </div>
@@ -42,7 +42,7 @@ export default function DeskNav() {
 
             <li>
               <div>
-                <button className=" text-[22px] m-5 uppercase">
+                <button className=" text-[16px] m-5 uppercase">
                   Lifestyle
                 </button>
               </div>
@@ -50,7 +50,7 @@ export default function DeskNav() {
 
             <li>
               <div>
-                <button className=" text-[22px] m-5 bg-gray-950 rounded-md text-white px-5 py-2 uppercase">
+                <button className=" text-[16px] m-5 bg-gray-950 rounded-md text-white px-5 py-2 uppercase">
                   Sign Up
                 </button>
               </div>
