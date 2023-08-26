@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function DeskNav() {
   return (
     <nav className="">
-      <ul className="flex justify-between p-10">
+      <ul className="flex justify-between items-center p-5">
         <Link href="/">
           <li className="flex justify-center items-center cursor-pointer">
             <div className="mr-1">
