@@ -1,20 +1,23 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function DeskNav() {
   return (
     <nav className="">
       <ul className="flex justify-between p-10">
-        <li className="flex justify-center items-center">
-          <div className="mr-1">
-            <Image
-              src="/images/Vector.svg"
-              alt="Fashion"
-              width={30}
-              height={30}
-            />
-          </div>
-          <h1 className="text-3xl font-extrabold uppercase">Fashion</h1>
-        </li>
+        <Link href="/">
+          <li className="flex justify-center items-center cursor-pointer">
+            <div className="mr-1">
+              <Image
+                src="/images/Vector.svg"
+                alt="Fashion"
+                width={30}
+                height={30}
+              />
+            </div>
+            <h1 className="text-3xl font-extrabold uppercase">Fashion</h1>
+          </li>
+        </Link>
 
         <li className="">
           <ul className=" flex justify-center items-center">
@@ -28,7 +31,7 @@ export default function DeskNav() {
 
             <li>
               <div>
-                <button className=" text-[16px] m-5 uppercase">Fashio</button>
+                <button className=" text-[16px] m-5 uppercase">Fashion</button>
               </div>
             </li>
 
