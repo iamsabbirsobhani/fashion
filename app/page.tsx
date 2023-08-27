@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar';
+import SectionFour from '@/components/section-four';
 import SectionOne from '@/components/section-one';
 import SectionThree from '@/components/section-three';
 import SectionTwo from '@/components/section-two';
@@ -11,6 +12,7 @@ export default function Home() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
     </main>
   );
 }
