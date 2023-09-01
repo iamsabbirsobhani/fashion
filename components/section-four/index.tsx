@@ -24,7 +24,7 @@ export default function SectionFour() {
             Payday
           </span>
           <br />
-          <span> Sale Now </span>
+          <span>Sale Now</span>
         </h1>
         <p className=" text-xl mt-4 mb-3">
           Spend minimal $100 get 30% off <br /> voucher code for your next
